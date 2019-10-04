@@ -18,15 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magic App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qL-As-sRq">
-                                <rect key="frame" x="165" y="89" width="82" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magic App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qL-As-sRq">
+                                <rect key="frame" x="166" y="89" width="82" height="21"/>
                                 <accessibility key="accessibilityConfiguration" identifier="LBLTITLE"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="yxT-YZ-Bov"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wtf-Cs-od5">
-                                <rect key="frame" x="0.0" y="154" width="414" height="742"/>
+                                <rect key="frame" x="0.0" y="130" width="414" height="766"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="8kX-4j-nKk" style="IBUITableViewCellStyleDefault" id="8G4-jV-ReN">
@@ -53,12 +56,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Wtf-Cs-od5" secondAttribute="bottom" id="55A-5q-m5w"/>
-                            <constraint firstItem="Wtf-Cs-od5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ENp-Xx-h02"/>
-                            <constraint firstAttribute="trailing" secondItem="Wtf-Cs-od5" secondAttribute="trailing" id="LQU-G1-H9S"/>
-                            <constraint firstItem="5qL-As-sRq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="OBF-YE-84Z"/>
-                            <constraint firstItem="Wtf-Cs-od5" firstAttribute="top" secondItem="5qL-As-sRq" secondAttribute="bottom" constant="44" id="aEW-J2-4vx"/>
-                            <constraint firstItem="5qL-As-sRq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="f0W-2w-dnu"/>
+                            <constraint firstItem="5qL-As-sRq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="AvV-if-wqI"/>
+                            <constraint firstItem="Wtf-Cs-od5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Dm2-hR-Ae0"/>
+                            <constraint firstAttribute="bottom" secondItem="Wtf-Cs-od5" secondAttribute="bottom" id="IzF-LZ-Nyj"/>
+                            <constraint firstItem="Wtf-Cs-od5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KTC-wZ-FBj"/>
+                            <constraint firstItem="5qL-As-sRq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W5A-gI-Kuh"/>
+                            <constraint firstItem="Wtf-Cs-od5" firstAttribute="top" secondItem="5qL-As-sRq" secondAttribute="bottom" constant="20" id="hsi-bd-l56"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
