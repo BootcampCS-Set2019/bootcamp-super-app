@@ -8,13 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BDAFF4202346587F000256FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFF41F2346587F000256FF /* AppDelegate.swift */; };
-		BDAFF4222346587F000256FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFF4212346587F000256FF /* ViewController.swift */; };
-		BDAFF4252346587F000256FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAFF4232346587F000256FF /* Main.storyboard */; };
 		BDAFF42723465880000256FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAFF42623465880000256FF /* Assets.xcassets */; };
 		BDAFF42A23465880000256FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAFF42823465880000256FF /* LaunchScreen.storyboard */; };
 		BDAFF43523465880000256FF /* MagicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFF43423465880000256FF /* MagicAppTests.swift */; };
-		BDAFF44023465DFB000256FF /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAFF43F23465DFB000256FF /* Detail.storyboard */; };
-		BDAFF44223465E23000256FF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFF44123465E23000256FF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +26,12 @@
 /* Begin PBXFileReference section */
 		BDAFF41C2346587F000256FF /* MagicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAFF41F2346587F000256FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDAFF4212346587F000256FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BDAFF4242346587F000256FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDAFF42623465880000256FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDAFF42923465880000256FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDAFF42B23465880000256FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDAFF43023465880000256FF /* MagicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAFF43423465880000256FF /* MagicAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicAppTests.swift; sourceTree = "<group>"; };
 		BDAFF43623465880000256FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDAFF43F23465DFB000256FF /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
-		BDAFF44123465E23000256FF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				BDAFF41F2346587F000256FF /* AppDelegate.swift */,
-				BDAFF4212346587F000256FF /* ViewController.swift */,
-				BDAFF4232346587F000256FF /* Main.storyboard */,
-				BDAFF43F23465DFB000256FF /* Detail.storyboard */,
 				BDAFF42623465880000256FF /* Assets.xcassets */,
 				BDAFF42823465880000256FF /* LaunchScreen.storyboard */,
 				BDAFF42B23465880000256FF /* Info.plist */,
-				BDAFF44123465E23000256FF /* DetailViewController.swift */,
 			);
 			path = MagicApp;
 			sourceTree = "<group>";
@@ -112,6 +100,8 @@
 				BDAFF4182346587F000256FF /* Sources */,
 				BDAFF4192346587F000256FF /* Frameworks */,
 				BDAFF41A2346587F000256FF /* Resources */,
+				BD47B453234E3D1D00E189B9 /* ShellScript */,
+				BD47B454234E3D2800E189B9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -129,6 +119,8 @@
 				BDAFF42C23465880000256FF /* Sources */,
 				BDAFF42D23465880000256FF /* Frameworks */,
 				BDAFF42E23465880000256FF /* Resources */,
+				BD47B455234E3DD000E189B9 /* ShellScript */,
+				BD47B456234E3DDB00E189B9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -185,8 +177,6 @@
 			files = (
 				BDAFF42A23465880000256FF /* LaunchScreen.storyboard in Resources */,
 				BDAFF42723465880000256FF /* Assets.xcassets in Resources */,
-				BDAFF4252346587F000256FF /* Main.storyboard in Resources */,
-				BDAFF44023465DFB000256FF /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,13 +189,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BD47B453234E3D1D00E189B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho “warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint”\nfi\n";
+		};
+		BD47B454234E3D2800E189B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RecommendedCardsModule.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CardDetailModule.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Entities.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Components.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Resources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Repositories.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Components.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Resources.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Repositories.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Entities.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CardDetailModule.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RecommendedCardsModule.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		BD47B455234E3DD000E189B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho “warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint”\nfi\n";
+		};
+		BD47B456234E3DDB00E189B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDAFF4182346587F000256FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDAFF44223465E23000256FF /* DetailViewController.swift in Sources */,
-				BDAFF4222346587F000256FF /* ViewController.swift in Sources */,
 				BDAFF4202346587F000256FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,14 +306,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDAFF4232346587F000256FF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDAFF4242346587F000256FF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BDAFF42823465880000256FF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVMDCJRNKS;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = MagicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -388,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVMDCJRNKS;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = MagicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -407,6 +478,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVMDCJRNKS;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = MagicAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +500,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVMDCJRNKS;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = MagicAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
