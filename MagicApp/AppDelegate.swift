@@ -9,6 +9,7 @@
 import RecommendedCardsModule
 import CardDetailModule
 import Entities
+import Repositories
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,7 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = RecommendedCardsModuleBuilder.buildRoot(delegate: self)
+
+        let provider = DataProvider(api: API(session: URLSession.shared))
+        let rootViewController = RecommendedCardsModuleBuilder.buildRoot(provider: provider)
+        rootViewController.delegate = self
+
+        window.rootViewController = rootViewController
+
         window.makeKeyAndVisible()
 
         self.window = window
