@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0029852354B50B009CCEA2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0029842354B50B009CCEA2 /* RootViewController.swift */; };
 		BDAFF4202346587F000256FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFF41F2346587F000256FF /* AppDelegate.swift */; };
 		BDAFF42723465880000256FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAFF42623465880000256FF /* Assets.xcassets */; };
 		BDAFF42A23465880000256FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAFF42823465880000256FF /* LaunchScreen.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD0029842354B50B009CCEA2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		BDAFF41C2346587F000256FF /* MagicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAFF41F2346587F000256FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDAFF42623465880000256FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				BDAFF42623465880000256FF /* Assets.xcassets */,
 				BDAFF42823465880000256FF /* LaunchScreen.storyboard */,
 				BDAFF42B23465880000256FF /* Info.plist */,
+				BD0029842354B50B009CCEA2 /* RootViewController.swift */,
 			);
 			path = MagicApp;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Repositories.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FavoredCardsModule.framework",
 			);
 			outputFileListPaths = (
 			);
@@ -235,6 +239,7 @@
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RecommendedCardsModule.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FavoredCardsModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -283,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0029852354B50B009CCEA2 /* RootViewController.swift in Sources */,
 				BDAFF4202346587F000256FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,8 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
 
         let provider = DataProvider(api: API(session: URLSession.shared))
-        let rootViewController = RecommendedCardsModuleBuilder.buildRoot(provider: provider)
-        rootViewController.delegate = self
+        let rootViewController = RootViewController(provider: provider)
+//        rootViewController.delegate = self
 
         window.rootViewController = rootViewController
 
